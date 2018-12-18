@@ -12,7 +12,7 @@ public class DepositTest {
 		DepositCalculator test = new DepositCalculator();
 
 		//Test method
-		assertEquals(33000, test.Deposit(30000.0 , 10.0, 1),0.1);
+		assertEquals(101103.4893, test.Deposit(60000.0 , 11.0, 5),0.1);
 	}
 
 }
